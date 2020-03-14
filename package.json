@@ -6,13 +6,17 @@
   "author": "MintyU <deathcat@outlook.kr>",
   "license": "MIT",
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "dotenv": "^8.2.0",
+    "graphql-yoga": "^1.18.3",
+    "morgan": "^1.9.1"
   },
   "devDependencies": {
-    "babel-cli": "6.26.0",
-    "nodemon": "^2.0.2" 
+    "nodemon": "^2.0.2"
   },
   "scripts": {
-    "dev" : "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/server.js"
   }
 }
